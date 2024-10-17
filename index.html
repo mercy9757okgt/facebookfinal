@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Call for Verification</title>
+            <style>
+         body {
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+         background-color: white; /* Set background to white */
+         }
+         .container {
+         text-align: center;
+         background-color: white;
+         padding: 40px;
+         border-radius: 8px;
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+         }
+         h2 {
+         color: #333;
+         }
+         p {
+         color: #666;
+         margin: 20px 0;
+         }
+         .call-button {
+         padding: 15px 25px;
+         font-size: 15px;
+         color: white;
+         background-color: #007BFF;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-decoration: none;
+         }
+         .call-button:hover {
+         background-color: #0056b3;
+         }
+         .footer {
+         margin-top: 30px;
+         font-size: 14px;
+         color: #666;
+         text-align: center;
+         }
+         .footer a {
+         color: #007BFF;
+         text-decoration: none;
+         }
+         .footer a:hover {
+         text-decoration: underline;
+         }
+         .cookie-banner {
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background-color: #f0f0f0;
+         padding: 10px;
+         text-align: center;
+         font-size: 14px;
+         border-top: 1px solid #ccc;
+         }
+         .cookie-banner button {
+         margin-left: 10px;
+         padding: 5px 10px;
+         background-color: #007BFF;
+         color: white;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         }
+         .cookie-banner button:hover {
+         background-color: #0056b3;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <h2>Talk To a Expert</h2>
+         <p>Please call us to resolve your issues.</p>
+         <a href="tel:+18664098145" class="call-button">Call Now +1(855) 491 3426</a>
+      </div>
+      <div class="footer">
+         <p>
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Privacy Policy</a>
+         </p>
+      </div>
+      <div class="cookie-banner">
+         <p>This website uses cookies to ensure you get the best experience on our website. 
+            <button id="acceptCookies">Accept</button>
+         </p>
+      </div>
+      <script>
+         document.getElementById('acceptCookies').onclick = function() {
+             document.querySelector('.cookie-banner').style.display = 'none';
+         };
+      </script>
+   </body>
+</html>
